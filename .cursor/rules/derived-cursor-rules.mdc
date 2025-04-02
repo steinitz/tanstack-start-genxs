@@ -1,0 +1,59 @@
+---
+description: Cursor rules derived by SpecStory from the project AI interaction history
+globs: *
+---
+
+## PROJECT OVERVIEW
+This project aims to [Insert Project Goal Here].  Further details will be added as the project evolves.
+
+## CODE STYLE
+- Use consistent indentation (2 spaces).
+- Follow TypeScript type safety guidelines strictly.
+- Adhere to the naming conventions defined in the project.
+- Ensure all code is well-commented and easy to understand.
+
+## FOLDER ORGANIZATION
+- The project uses a monorepo structure.  Specific folder organization within the monorepo will be detailed further.  [Further clarification needed on monorepo structure.]
+
+## TECH STACK
+- TypeScript
+- React
+- Node.js
+- @gensx/core
+- @gensx/openai (Version update needed - check for compatibility with streaming responses.)
+
+
+## PROJECT-SPECIFIC STANDARDS
+- All components must be thoroughly tested.
+- Utilize consistent error handling mechanisms.
+- Follow the design system guidelines.
+
+
+## WORKFLOW & RELEASE RULES
+- Utilize Gitflow for branching and merging.
+- All pull requests must be reviewed by at least one other developer.
+- Automated testing must pass before merging any pull request.
+- Release process to be documented soon.
+
+
+## REFERENCE EXAMPLES
+- Add reference examples of best practices as needed.
+
+
+## PROJECT DOCUMENTATION & CONTEXT SYSTEM
+- Documentation will be maintained using [Documentation System - To be Defined].
+- Version control will be managed through Git.
+
+
+## DEBUGGING
+- When encountering TypeScript errors like "Cannot find name...", ensure all necessary types are imported.  Check package documentation for correct type names.
+- For streaming responses from OpenAI APIs, consult package documentation for proper handling. A placeholder return value like "Joke generation in progress..." might be appropriate while awaiting a complete response.
+-  Handling streaming responses from `@gensx/openai` requires careful consideration of the type definitions.  Refer to the package documentation and examples for correct usage.  A simpler approach may be necessary if type information is insufficient.  Prioritize functionality over perfect type safety in cases where a workaround is necessary to maintain functionality.
+
+## FINAL DOs AND DON'Ts
+- **DO:** Write clean, well-documented code.
+- **DO:** Follow the coding style guidelines.
+- **DO:** Thoroughly test your code.
+- **DO:** Use the correct type definitions when using external packages.  Carefully handle streaming response types and consult package documentation.  Prioritize functionality if type safety conflicts.
+- **DON'T:** Commit broken code.
+- **DON'T:** Neglect error handling.
