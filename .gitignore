@@ -151,3 +151,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+.cursor/
+derived-cursor-rules.mdc
+.cursor/rules/derived-cursor-rules.mdc
